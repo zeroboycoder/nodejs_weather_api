@@ -1,0 +1,43 @@
+<% include partials/header.ejs %>
+
+<div class="jum">
+    <h1> <i class="fas fa-cloud-sun"></i> Weather API APP</h1>
+</div>
+<div class="container">
+
+    <form action="/" method="post" class="form">
+        <div clsss="form-group">
+            <input type="text" name="cityName" class="form-control" placeholder="City">
+        </div>
+        <div>
+            <button class="btn btn-lg btn-primary form-control">Get Weather</button>
+        </div>
+    </form>
+</div>
+<div class="output">
+    <table>
+        <tr>
+            <td><i class="fas fa-map-marker-alt"></i></td>
+            <td><%= dataArr[0] %>, <%= dataArr[2] %></td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-temperature-high"></i></td>
+            <td>Temperature : <%= dataArr[3] %> °C</td>
+        </tr>
+        <tr>
+            <td><i class="fas fa-wind"></i></td>
+            <td>Wind : <%= dataArr[4] %> mph</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Condition : <%= dataArr[5] %></td>
+        </tr>
+    </table>
+
+    <!-- <p clss="lead">  </p>
+    <p clss="lead"><i class="fas fa-temperature-high"></i> Temperature : <%= dataArr[3] %> °C</p>
+    <p clss="lead"><i class="fas fa-wind"></i> Wind : <%= dataArr[4] %> mph</p>
+    <p clss="lead">Condition : <%= dataArr[5] %></p> -->
+</div>
+
+<% include partials/header.ejs %>

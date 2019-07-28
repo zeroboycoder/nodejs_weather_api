@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #4AC29A, #BDFFF3);
+}
+h1{
+    font-size: 2.1em;
+    font-family: 'Merriweather', serif;
+    color: #121c42;
+}
+.jum{
+    padding: 64px 32px 50px 32px;
+}
+.form{
+    width: 300px;
+    margin: 0 auto;
+}
+.form input{
+    margin: 3% 0;
+}
+.form button{
+    margin: 3% 0 15% 0;
+}
+table{
+    width: 100%;
+}
+.output{
+    width: 300px;
+    background-color: #8cfae6a4;
+    margin: auto;
+    padding: 10px;
+    margin: 0px auto 20px;
+}
+.output tr{
+    padding: 3px;
+    margin: 2px 0px;
+}
+.output tr i{
+    padding: 3px 0px 3px 10px;
+}
