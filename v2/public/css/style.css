@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    color: #efefef;
+    background-image: url("../image/starry-night.jpg");
+    background-position: center;
+    background-size: 110%;
+}
+h1{
+    text-align: left;
+    margin: 3% 0 2% 3%;
+}
+
+#card{
+    color: #efefef;
+    width: 350px;
+    background-color: #ffffff00;
+    border: none;
+    text-align: left;
+    margin: 350px auto 0;
+}
+.card-footer{
+    background-color: #ffffff00;
+    font-size : 14px;
+}
+
+
+
+
+
+.containerBox{
+    margin: 4% 10% 4% 3%;
+}
+.inputBox{
+    border-right: 1px solid #111111;
+    /* background-image: linear-gradient(to bottom, #b0b3ba, #94969e, #7a7b82, #606068, #48474e); */
+}
+.form{
+    margin-top: 100px;
+}
+.textInput{
+    text-align: left;
+    float: left;
+    width: 70%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn{
+    text-align: center;
+    width: 30%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+
+
+.data{
+    box-shadow: 3px 3px 7px #111111;
+    box-shadow: 1px 1px 7px #111111;
+}
+img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 5% 0 0 10%;
+}
+.name{
+    margin: 2% 3% 2% 2%;
+    float: right;
+    text-align: right;
+}
+.temp{
+    margin-right: 2%;
+    font-size: 8rem;
+    clear: both;
+    text-align: right;
+}
+.c{
+    font-size: 3.5rem;
+}
+
+hr{
+    border: 1px solid #5f5c5c79;
+    width: 90%;
+}
+.hr{
+    border:1.5px solid #efefef;
+    width: 90%;
+}
+.wind{
+    padding-left: 10px;
+}

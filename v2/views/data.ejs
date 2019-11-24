@@ -1,0 +1,55 @@
+<% include partials/header.ejs %>
+
+<h1><i class="fas fa-cloud-sun"></i> Weather API APP</h1>
+<div class="containerBox">
+    <div class="row">
+        <div class="col-md-4 inputBox">
+            <form action="/" method="post" class="form">
+                <div clsss="form-group form">
+                    <input type="text" name="cityName" class="form-control textInput" placeholder="City" autofocus>
+                    <button class="btn btn-md btn-info">Search</button>
+                </div>
+            </form>
+            <div class="card" id="card">
+                <div class="card-body">
+                    <p>Contact me : </p>
+                    <p>email : pyaesonekhant1234@gmail.com</p>
+                    <p>Ph : +959691873398</p>
+                    <p>facebook : https://www.facebook.com/pyae.sonekhant.9277</p>
+                </div>
+                <div class="card-footer">
+                    Created By Zero Boy <br> 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 data">
+            <div clsss="icon">
+                <img src="<%= dataArr[7] %>">
+            </div>
+            <div class="name">
+                <h3><%= dataArr[0] %></h3>
+                <p class="lead"><%= dataArr[1] %></p>
+                <p class="lead"><%= dataArr[13] %> <%= dataArr[14]%> <%= dataArr[12] %>, <%= dataArr[8] %></p>
+            </div>
+            <div class="temp">
+                <p style="margin-bottom:0;"><%= dataArr[2] %>°<span class="c">C</span></p>
+                <h3 id="conditionText" style="text-align: right;padding-bottom: 15px;"><%= dataArr[4] %></h3>
+            </div>
+            <div class="otherWeather">
+                <hr class="hr">
+                <p class="lead"><span class="word">Humidity</span> <span class="colom">:</span> <span class="result"><%= dataArr[5] %> %</span> </p>
+                <hr>
+                <p class="lead wind"><span class="word">Wind</span> <span class="colom">:</span> <span class="result"><%= dataArr[3] %> mph</span></p>
+                <hr>
+                <p class="lead"><span class="word">Rain Fall </span> <span class="colom">:</span> <span class="result"><%= dataArr[6] %> in</span></p>
+                <hr>
+                <p class="lead"><span class="word">Day/ Night</span> <span class="colom">:</span> <span class="result"><%= dataArr[11] %> </span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include partials/header.ejs %>
+
+<!-- Moderate or heavy rain shower
+Cloudy, Partly cloudy-->
